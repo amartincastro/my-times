@@ -11,12 +11,18 @@ header {
 
 .nav span {
   display: inline-block;
+  align-items: center;
 }
 
 .logo {
   display: flex;
+  align-items: center;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
+}
+
+.logo img {
+  margin: 0px 12px 0px 0px;
 }
