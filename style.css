@@ -39,6 +39,23 @@ nav span a {
   margin: 0px 12px 0px 0px;
 }
 
-body {
+.articles {
   display: flex;
+  padding-top: 100px;
+}
+
+.articles div {
+  border: 1px solid black;
+} /*This is for the borders, remove upon completion*/
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
