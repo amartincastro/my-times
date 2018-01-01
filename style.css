@@ -1,14 +1,26 @@
 header {
   display: flex;
+  align-items: center;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 1px solid black;
 }
 
-.nav span {
+nav {
+  display: block;
+}
+
+nav span {
   display: inline-block;
-  text-align: center;
   padding-right: 40px
+}
+
+nav span a {
+  color: black;
 }
 
 .logo {
