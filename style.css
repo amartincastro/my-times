@@ -1,19 +1,19 @@
-header {
+.header {
   display: inline-flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
 }
 
-nav {
+.nav {
   display: flex;
 }
 
-nav span {
+.nav span {
   display: inline-block;
 }
 
-logo {
+.logo {
   display: flex;
   color: MediumAquamarine;
 }
