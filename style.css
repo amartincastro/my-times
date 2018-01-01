@@ -5,13 +5,10 @@ header {
   font-weight: bold;
 }
 
-.nav {
-  display: flex;
-}
-
 .nav span {
   display: inline-block;
-  align-items: center;
+  text-align: center;
+  padding-right: 40px
 }
 
 .logo {
