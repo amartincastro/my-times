@@ -42,6 +42,7 @@ nav span a {
 .articles {
   display: flex;
   padding-top: 100px;
+  z-index: 2;
 }
 
 .articles div {
@@ -58,4 +59,50 @@ nav span a {
 
 .column.small {
   width: 240px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.banner.text {
+  background-image: url('resources/img-story-main.png');
+  margin-top: 0px;
+  font-size: 40px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+}
+
+.tagline1 {
+  background-image: url('resources/img-story-2.png');
+  margin-top: 0px;
+  font-size: 40px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+}
+
+.tagline2 {
+  background-image: url('resources/img-story-3.png');
+  margin-top: 0px;
+  font-size: 40px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+}
+
+.tagline3 {
+  background-image: url('resources/img-story-1.png');
+  margin-top: 0px;
+  font-size: 40px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  text-align: left;
 }
