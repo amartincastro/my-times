@@ -71,7 +71,18 @@ nav span a {
 .smallumns {
   display: flex;
   flex-wrap: wrap;
-  width: 300px;
+}
+
+.smallumns.article {
+width: 300px;
+}
+
+.smallumns.tagline1 {
+width: 300px;
+}
+
+.smallumns.tagline3 {
+width: 300px;
 }
 
 .banner.text {
