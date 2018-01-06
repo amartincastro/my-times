@@ -105,6 +105,16 @@ width: 300px;
   text-align: left;
 }
 
+.left {
+  display: flex;
+  width: 50%;
+}
+
+.right {
+  display: flex;
+  width: 50;
+}
+
 .tagline1 {
   display: flex;
   background-image: url('resources/img-story-2.png');
