@@ -74,12 +74,11 @@ nav span a {
 
 .smallumns {
   display: flex;
-  flex-wrap: wrap;
   flex: 1;
 }
 
 .smallumns.div {
-  display: inline-flex;
+  display: flex;
 }
 
 .smallumns.article {
@@ -108,11 +107,13 @@ width: 300px;
 .left {
   display: flex;
   width: 50%;
+  flex-direction: column;
 }
 
 .right {
   display: flex;
   width: 50%;
+  flex-direction: column;
 }
 
 .tagline1 {
