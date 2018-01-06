@@ -11,6 +11,10 @@ header {
   height: 80px;
 }
 
+body {
+  display: flex;
+}
+
 nav {
 
 }
@@ -72,6 +76,10 @@ nav span a {
   display: flex;
   flex-wrap: wrap;
   flex: 1;
+}
+
+.smallumns.div {
+  display: flex;
 }
 
 .smallumns.article {
