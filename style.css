@@ -6,7 +6,7 @@ header {
   font-weight: bold;
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 5;
   border-bottom: 1px solid black;
   height: 80px;
 }
@@ -48,7 +48,6 @@ nav span a {
   padding-top: 100px;
   z-index: 2;
   padding-left: 20px;
-  justify-content: space-between;
 }
 
 .articles div {
@@ -65,6 +64,8 @@ nav span a {
 
 .column.small {
   width: 240px;
+  flex-direction: column;
+  border-bottom: 1px solid black;
 }
 
 .column {
@@ -80,12 +81,10 @@ nav span a {
 
 .smallumns.div {
   display: flex;
-  justify-content: space-between;
 }
 
 .smallumns.article {
   width: 300px;
-  justify-content: space-between;
 }
 
 .smallumns.tagline1 {
@@ -123,25 +122,28 @@ nav span a {
 .tagline1 {
   display: flex;
   background-image: url('resources/img-story-2.png');
-  margin-top: 0px;
+  margin-top: 15px;
   font-size: 30px;
   font-family: Georgia;
   font-weight: bold;
   color: white;
-  text-align: left;
+  text-align: center;
   height: 300px;
+  width: 300px;
+
 }
 
 .tagline2 {
   display: flex;
   background-image: url('resources/img-story-3.png');
-  margin-top: 0px;
+  margin-top: 15px;
   font-size: 30px;
   font-family: Georgia;
   font-weight: bold;
   color: white;
-  text-align: left;
+  text-align: center;
   height: 300px;
+  width: 300px;
 }
 
 .tagline3 {
@@ -151,12 +153,18 @@ nav span a {
   font-family: Georgia;
   font-weight: bold;
   color: white;
-  text-align: left;
+  text-align: center;
   height: 300px;
+  width: 300px;
 }
 
 h2 {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
 }
