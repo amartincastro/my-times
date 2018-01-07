@@ -9,6 +9,9 @@ header {
   z-index: 5;
   border-bottom: 1px solid black;
   height: 80px;
+  background-color: white;
+  margin-top: -8px;
+
 }
 
 body {
@@ -16,7 +19,6 @@ body {
 
 
 nav {
-
 }
 
 nav span {
@@ -65,7 +67,6 @@ nav span a {
 .column.small {
   width: 240px;
   flex-direction: column;
-  border-bottom: 1px solid black;
 }
 
 .column.small span {
@@ -76,6 +77,7 @@ nav span a {
   display: block;
   font-family: Verdana;
   font-size: 12px;
+  border-bottom: 1px solid black;
 }
 
 .column {
@@ -115,6 +117,9 @@ nav span a {
   color: white;
   text-align: left;
   height: 300px;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 12px;
 }
 
 .left {
@@ -140,7 +145,8 @@ nav span a {
   text-align: center;
   height: 300px;
   width: 300px;
-
+  justify-content: center;
+  flex-direction: column;
 }
 
 .tagline2 {
@@ -154,6 +160,8 @@ nav span a {
   text-align: center;
   height: 300px;
   width: 300px;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .tagline3 {
@@ -166,12 +174,15 @@ nav span a {
   text-align: center;
   height: 300px;
   width: 300px;
+  justify-content: center;
+  flex-direction: column;
 }
 
 h2 {
   font-family: Georgia;
-  font-size: 17px;
+  font-size: 30px;
   color: black;
+  display: block;
 }
 
 h3 {
@@ -192,6 +203,7 @@ footer {
   font-size: 12px;
   position: relative;
   clear: both;
+  margin-top: 70px;
 }
 
 footer .title {
@@ -200,8 +212,19 @@ footer .title {
   font-weight: bold;
   color: white;
   display: inline-block;
+  border-right: 2px solid white;
+  padding-right: 25px;
 }
 
-footer .nav {
+footer nav {
+  display: inline-block;
+  font-family: Verdana;
+  font-size: 12px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
 
+.copyright {
+  font-family: Verdana;
+  font-size: 12px;
 }
