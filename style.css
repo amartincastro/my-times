@@ -47,6 +47,8 @@ nav span a {
   display: flex;
   padding-top: 100px;
   z-index: 2;
+  padding-left: 20px;
+  justify-content: space-between;
 }
 
 .articles div {
@@ -78,18 +80,20 @@ nav span a {
 
 .smallumns.div {
   display: flex;
+  justify-content: space-between;
 }
 
 .smallumns.article {
-width: 300px;
+  width: 300px;
+  justify-content: space-between;
 }
 
 .smallumns.tagline1 {
-width: 300px;
+  width: 300px;
 }
 
 .smallumns.tagline3 {
-width: 300px;
+  width: 300px;
 }
 
 .banner.text {
