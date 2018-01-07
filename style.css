@@ -12,8 +12,8 @@ header {
 }
 
 body {
-  display: flex;
 }
+
 
 nav {
 
@@ -190,6 +190,8 @@ footer {
   margin: auto;
   background-color: MediumAquamarine;
   font-size: 12px;
+  position: relative;
+  clear: both;
 }
 
 footer .title {
@@ -201,5 +203,5 @@ footer .title {
 }
 
 footer .nav {
-  
+
 }
