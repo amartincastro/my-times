@@ -68,6 +68,16 @@ nav span a {
   border-bottom: 1px solid black;
 }
 
+.column.small span {
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  color: DimGray;
+  padding: 11px 20px;
+  display: block;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -167,4 +177,11 @@ h2 {
 h3 {
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  vertical-align: center;
+  margin: auto;
 }
